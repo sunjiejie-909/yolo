@@ -1,0 +1,42 @@
+dataset:
+  name: GIDD
+  classes:
+    - insulator
+    - defect
+  raw_images: 2753
+  retained_images: 2542
+  split_ratio: "7:2:1"
+  train_images_before_augmentation: 1779
+  validation_images_before_augmentation: 508
+  test_images: 255
+  train_images_after_augmentation: 8895
+  validation_images_after_augmentation: 2540
+  augment_test_set: false
+
+training:
+  input_size: [640, 640]
+  epochs: 150
+  batch_size: 4
+  optimizer: SGD
+  initial_learning_rate: 0.01
+  pytorch: "2.0.0"
+  cuda: "11.8"
+  gpu: "NVIDIA GeForce RTX 3060 Ti (8 GB)"
+
+edge_inference:
+  device: "NVIDIA Jetson Orin Nano (4 GB)"
+  jetpack: "5.1.2"
+  operating_system: "Ubuntu 20.04"
+  tensorrt: "8.6"
+  precision: "FP16"
+  input_size: [640, 640]
+  batch_size: 1
+
+reporting:
+  random_seed: null
+  repeated_training_runs: 1
+  multi_seed_average_claimed: false
+  fps_warmup_iterations: null
+  fps_timed_iterations: null
+  fps_includes_preprocessing: null
+  fps_includes_nms: null
