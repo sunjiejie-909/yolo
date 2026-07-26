@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.cache
+*.pt
+*.pth
+*.engine
+*.onnx
+
+# Field data must be added only after de-identification review.
+data/images/
+data/raw/
+data/original/
