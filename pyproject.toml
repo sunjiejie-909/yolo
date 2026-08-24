@@ -31,13 +31,6 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { "text" = "AGPL-3.0" }
 keywords = ["computer-vision", "object-detection", "machine-vision", "YOLO", "glass-insulator-inspection"]
-authors = [
-    { name = "Hongjie Sun" },
-    { name = "Yanfeng Gao" },
-    { name = "Licong Guan" },
-    { name = "Yinglian Jin" },
-    { name = "Binrui Wang" }
-]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",

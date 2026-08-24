@@ -1,9 +1,7 @@
 # RFGAC-YOLO research code
 
 This repository contains the code and configuration used to develop the
-RFGAC-YOLO object detector for glass-insulator damage detection. The paper
-authors are Hongjie Sun, Yanfeng Gao, Licong Guan, Yinglian Jin, and Binrui
-Wang.
+RFGAC-YOLO object detector for glass-insulator damage detection.
 
 ## Scope of this release
 
@@ -66,6 +64,6 @@ redistributing the code.
 
 ## Citation
 
-Citation metadata for this code release is provided in `CITATION.cff`. No DOI,
-archived release, dataset, or model checkpoint is claimed by this repository
-until the authors create and verify one.
+Please cite the associated manuscript using the author-approved metadata from
+the submission system. This code-only snapshot does not claim a DOI, archived
+release, dataset, or model checkpoint.
